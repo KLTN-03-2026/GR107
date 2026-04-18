@@ -7,7 +7,7 @@ const LoginHeader: React.FC = () => {
         <GraduationCap className='w-10 h-10 text-white' />
       </div>
       <h1 className='text-4xl font-bold text-red-700 mb-2'>
-        Social Media
+        Educonnect Live
       </h1>
       <p className='text-gray-600 text-lg'>HUB</p>
     </div>
