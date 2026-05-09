@@ -30,7 +30,7 @@ export const Dashboard = () => {
           <span
             className={growthPercent > 0 ? 'text-green-500' : 'text-red-500'}
           >
-            {growthPercent.toFixed(2)} %
+            {growthPercent && growthPercent.toFixed(2)} %
           </span>
           <span className='text-gray-500'>vs last month</span>
         </div>
@@ -46,7 +46,7 @@ export const Dashboard = () => {
           <span
             className={growthPercent > 0 ? 'text-green-500' : 'text-red-500'}
           >
-            {growthPercent.toFixed(2)} %
+            {growthPercent && growthPercent.toFixed(2)} %
           </span>
           <span className='text-gray-500'>vs last month</span>
         </div>
